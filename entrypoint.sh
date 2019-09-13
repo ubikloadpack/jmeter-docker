@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
-echo "START Running Jmeter on `date`"
+echo "START Running Apache JMeter on `date`"
 exec jmeter "$@"
-echo "END Running Jmeter on `date`"
+echo "END Running Apache JMeter on `date`"
